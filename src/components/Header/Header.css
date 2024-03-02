@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    gap: 480px
+}
+
+nav.header {
+    display: flex;
+    align-items: center;
+}
+
+nav.header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px; /* Reduce the margin for smaller screens */
+}
+
+nav.header a:hover {
+    color: #7E90FE;
+}
+
+ .btn-applying{
+    display: inline-flex;
+    padding: 19px 28px;
+    border-radius: 8px;
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+ }
+
+
+ /* Media Query for Tablet Screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        gap: 120px; /* Adjust gap between items for tablets */
+    }
+}
+
+
+
+/* Media Query for Small Screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: flex-start; /* Adjust alignment for stacked items */
+        gap: 0px;
+    }
+
+    nav.header {
+        margin-top: 10px; /* Add margin between logo and navigation links */
+    }
+
+    nav.header a {
+        margin-right: 30px; /* Adjust spacing for smaller screens */
+    }
+
+    .btn-applying{
+        margin-top: 20px;
+    }
+}

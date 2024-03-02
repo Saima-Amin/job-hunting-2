@@ -1,0 +1,38 @@
+[
+    {
+      "company": "Google LLC",
+      "role": "Technical Database Engineer",
+      "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
+      "location": "Remote",
+      "jobType": "Full Time",
+      "salary": "100K - 150K",
+      "description": "View Details"
+    },
+    {
+      "company": "Tesla",
+      "role": "Software Engineer",
+      "companyLogo": "https://www.tesla.com/sites/default/files/2021-03/tesla-logo-black.png",
+      "location": "Onsite",
+      "jobType": "Full Time",
+      "salary": "100K - 150K",
+      "description": "View Details"
+    },
+    {
+      "company": "Netflix",
+      "role": "Senior Product Designer",
+      "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png",
+      "location": "Onsite",
+      "jobType": "Full Time",
+      "salary": "Not Specified",
+      "description": "See All Jobs"
+    },
+    {
+        "company": "Google LLC",
+        "role": "Technical Database Engineer",
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
+        "location": "Remote",
+        "jobType": "Full Time",
+        "salary": "100K - 150K",
+        "description": "View Details"
+    }
+  ]

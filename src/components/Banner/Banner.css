@@ -1,0 +1,93 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-details{
+    text-align: left;
+    /* flex-shrink: 0; */
+}
+.banner-title{
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    /* margin-bottom: 0; */
+}
+.dreamjob{
+    color: #7E90FE ;
+}
+.banner-subtitle{
+    color: var(--Dark-03, #757575);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 166.667%;
+}
+.btn-getStarted{
+    display: inline-flex;
+    padding: 19px 28px;
+    border-radius: 8px;
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+}
+
+.banner-img{
+    width: 816px; 
+    height: 744px;
+    margin-top: 20px;
+    flex-shrink: 0;
+}
+
+
+/* Media Query for Tablet Screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .banner {
+        flex-direction: row; /* Revert to horizontal layout for tablets */
+        align-items: center;
+    }
+
+    .banner-details {
+        text-align: left;
+    }
+
+    .banner-title {
+        font-size: 60px; /* Adjust font size for tablets */
+    }
+
+    .banner-img {
+        margin-top: 0; /* Reset margin for tablets */
+    }
+}
+
+
+
+/* Media Query for Small Screens (e.g., mobile devices) */
+@media screen and (max-width: 768px){
+    .banner {
+        display: flex;
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center-align items on small screens */
+        text-align: center;
+    }
+    
+    .banner-title {
+        font-size: 40px; /* Adjust font size for small screens */
+        line-height: 125%;
+    }
+    
+    .banner-subtitle {
+        font-size: 14px; /* Adjust font size for small screens */
+        line-height: 150%;
+    }
+    
+    .btn-getStarted {
+        padding: 15px 20px; /* Adjust padding for small screens */
+    }
+    
+    .banner-img {
+        width: 100%; /* Make the image responsive to its container */
+        height: auto; /* Maintain the aspect ratio */
+        margin-top: 20px; /* Add some spacing between text and image on small screens */
+    }
+    
+}
